@@ -1,0 +1,15 @@
+{
+  "name": "modernize",
+  "version": "1.0.0",
+  "description": "Modernized Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Reuben De Roxas",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  }
+}
